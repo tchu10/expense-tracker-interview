@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:open": "vite --open",
+    "dev:host": "vite --host",
+    "dev:host:open": "vite --host --open",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
@@ -24,6 +27,7 @@
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.17",
+    "cypress": "^15.12.0",
     "jsdom": "^24.0.0",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
