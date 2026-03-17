@@ -1,0 +1,4 @@
+Date,Amount,Description,Category
+not-a-date,25.50,Lunch at cafe,Food
+2026-03-02,not-a-number,Uber rides,Transport
+2026-03-03,120.75,,Bills
